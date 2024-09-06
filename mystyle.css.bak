@@ -1,0 +1,28 @@
+header {
+	color: white;
+	background-color: green;
+	text-align: center;
+	vertical-align: baseline;
+	padding: 10px;
+	font-family: "Courier New", monospace;
+}
+body {
+  
+}
+h1 {
+	color: white;
+  
+}
+p {
+  color: white;
+}
+a {
+	color: red;
+}
+
+.box {
+	background-color: blue;
+	width: 500px;
+	align-items: center;
+	justify-content: center;
+}
