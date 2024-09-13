@@ -4,25 +4,103 @@ header {
 	text-align: center;
 	vertical-align: baseline;
 	padding: 10px;
+	margin: 0;
 	font-family: "Courier New", monospace;
 }
-body {
-  
-}
+
 h1 {
 	color: white;
-  
+	font-weight: normal;
+	margin: 0;
+	padding: 10px;
 }
-p {
-  color: white;
+
+.p1 {
+	color: white;
+	margin-left: 1em;
+	margin-top: 0;
 }
-a {
-	color: red;
-}
+
 
 .box {
 	background-color: blue;
+	color: white;
 	width: 500px;
 	align-items: center;
 	justify-content: center;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	margin-inline: auto;
+	margin-bottom: 0;
+}
+
+.frame{
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	border-radius: 10% 0% 20% 0%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+
+.link {
+	color: red;
+}
+
+.newspan{
+	background-color: blue;
+	display: inline;
+	word-spacing: 10px;
+	margin-left: 10px;
+}
+
+td {
+	width: 40px; 
+	height: 30px; 
+	border: solid 1px silver; 
+	text-align: center;
+	vertical-align: bottom;
+	margin: 0;
+
+}
+
+table{
+	border: 1px solid;
+	table-layout: fixed;
+	margin-right: 15px;
+	float: right;
+	margin-top: 20px;
+}
+
+/*.tbd{
+	display: block;
+	float: right;
+	margin-left: 350px;
+	margin-bottom: 0;
+}*/
+
+.sometext{
+	display: block;
+	text-indent: 10px;
+}
+
+.pic{
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+footer{
+	color: white;
+	background-color: green;
+	text-align: center;
+	vertical-align: baseline;
+	padding: 10px;
+	font-family: "Courier New", monospace;
+	margin: 0;
 }
